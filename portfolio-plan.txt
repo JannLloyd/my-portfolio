@@ -1,0 +1,68 @@
+# Portfolio Website Plan
+
+1. Header
+   - Logo (JL or E)
+   - Navigation Menu (Home, About, Projects, Contact)
+   (Notes: Sticky Header para maganda!)
+
+2. Hero Section
+   - Short intro (name, role like "Aspiring Web Developer")
+        Name: Jann Lloyd Y. Espinosa  
+
+        Role: Driven Career Shifter | Aspiring ServiceNow Admin & Web Developer
+
+        Short Greeting: Hi, I’m Jann Lloyd 👋  
+        Brief description: A driven career shifter, passionate about becoming a ServiceNow Admin & Web Developer.
+
+        Visual Ideas: Background image, illustration, or subtle animation to make it engaging
+
+   - Call-to-action button (e.g., "View My Work")
+
+3. About Me
+   - Short bio
+        Hi, I’m Jann Lloyd Espinosa — a fresh graduate and career shifter passionate about building solutions through technology. I started my journey in education, but along the way, I discovered my drive to pursue IT and create real-world impact through software.
+
+        I’m continuously improving my skills in HTML, CSS, and JavaScript, while also working toward a career in ServiceNow development and modern web technologies. My goal is simple: to grow as a developer, take on challenges, and contribute to projects that make a difference.
+
+   - Skills (list or icons)
+
+        Programming and Technical:
+            HTML
+            CSS
+            JavaScript
+
+        Tools:
+            VScode
+
+        Soft Skills
+            Problem-solving
+            Collaboration
+            Communication
+   (Notes: Could add icons for skills for visual appeal; optional “Download Resume” button)
+
+4. Projects
+   - Project Format
+      Name
+      Description (what it does, your role, tech used)
+      Link / Screenshot
+
+   Number of Projects: 3–5 recommended for portfolio
+   (Notes: Consider including one small ServiceNow-related project if possible)
+
+5. Contact
+   - Contact form (Name, Email, Message)
+   - Social links (GitHub, LinkedIn, etc.)
+
+6. Footer
+   - Copyright
+   - Quick links or socials
+
+Extra Considerations
+
+Color Scheme & Fonts: Decide now to maintain consistency
+
+Responsiveness: Mobile-first design
+
+Animations / Interactivity: Subtle hover effects, button transitions, scroll animations
+
+Optional Sections: Testimonials, Blog, or Certifications

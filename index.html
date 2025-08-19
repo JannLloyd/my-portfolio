@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jann Lloyd Y. Espinosa | Portfolio</title>
+  <!-- Fonts & CSS link (add later) -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello?</h1>
-    <p>This is a test</p>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">JL</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m Jann Lloyd 👋</h1>
+      <p>Driven Career Shifter | Aspiring ServiceNow Admin & Web Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Jann Lloyd Espinosa — a fresh graduate and career shifter passionate about building solutions through technology. I started my journey in education, but along the way, I discovered my drive to pursue IT and create real-world impact through software.</p>
+    <p>I’m continuously improving my skills in HTML, CSS, and JavaScript, while also working toward a career in ServiceNow development and modern web technologies. My goal is simple: to grow as a developer, take on challenges, and contribute to projects that make a difference.</p>
+    
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li><strong>Programming/Technical:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Tools:</strong> VS Code</li>
+        <li><strong>Soft Skills:</strong> Problem-solving, Collaboration, Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <!-- Example project -->
+      <div class="project">
+        <h3>Project Name</h3>
+        <p>Short description of project. Tech used: HTML, CSS, JS.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jann Lloyd Y. Espinosa. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
