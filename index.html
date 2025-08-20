@@ -6,27 +6,37 @@
   <title>Jann Lloyd Y. Espinosa | Portfolio</title>
   <!-- Fonts & CSS link (add later) -->
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <div class="logo">JL</div>
+    <div id="logo">
+      <p class="name">Jann <span>Lloyd</span></p>
+    </div>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <div><a href="#home">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#projects">Projects</a></div>
+        <div><a href="#contact">Contact</a></div>
     </nav>
+    <div class="cv">
+      <button>Download CV</button>
+    </div>
   </header>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
+
+    <div class="try"></div>
+    <!-- <img class="me" src="./images/DBM17054_F.jpg"/> -->
+
     <div class="hero-content">
-      <h1>Hi, I’m Jann Lloyd 👋</h1>
-      <p>Driven Career Shifter | Aspiring ServiceNow Admin & Web Developer</p>
+      <h1 class="greeting">Hi, I’m Jann Lloyd 👋</h1>
+      <p class="job">Driven Career Shifter | Aspiring ServiceNow Admin & Web Developer</p>
       <a href="#projects" class="btn">View My Work</a>
     </div>
   </section>
@@ -48,20 +58,20 @@
   </section>
 
   <!-- Projects -->
-  <section id="projects">
+  <!-- <section id="projects">
     <h2>Projects</h2>
-    <div class="project-list">
+    <div class="project-list"> -->
       <!-- Example project -->
-      <div class="project">
+      <!-- <div class="project">
         <h3>Project Name</h3>
         <p>Short description of project. Tech used: HTML, CSS, JS.</p>
         <a href="#">View Project</a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact -->
-  <section id="contact">
+  <!-- <section id="contact">
     <h2>Contact</h2>
     <form action="#" method="POST">
       <label for="name">Name:</label>
@@ -80,12 +90,12 @@
       <a href="#">GitHub</a>
       <a href="#">LinkedIn</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer>
+  <!-- <footer>
     <p>&copy; 2025 Jann Lloyd Y. Espinosa. All rights reserved.</p>
-  </footer>
+  </footer> -->
 
 </body>
 </html>
